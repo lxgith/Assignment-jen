@@ -1,9 +1,9 @@
 pipeline {
 	agent {
-	lable 'built-in'
+	lable '172.31.8.232'
 		}
 		stages {
-			stage {'master' {
+			stage {'slave3' {
 				steps {sh "yum install httpd -y"
 					sh "service httpd start"
 					sh "cp -r index.html /var/www/html/"
