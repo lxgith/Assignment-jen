@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-	lable 'built-in'
+	lable '172.31.8.219'
 		}
 		stages {
 			stage {'master' {
