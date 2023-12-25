@@ -3,7 +3,7 @@ pipeline {
 	lable '172.31.8.219'
 		}
 		stages {
-			stage {'master' {
+			stage {'slave-2' {
 				steps {sh "yum install httpd -y"
 					sh "service httpd start"
 					sh "cp -r index.html /var/www/html/"
